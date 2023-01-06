@@ -1,0 +1,10 @@
+# executable
+*.out
+
+# junk
+*.log
+*.swp
+
+# compressed
+*.gz
+*.xz
