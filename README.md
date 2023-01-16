@@ -3,7 +3,7 @@
 
 ### requirement
 - target board: odroid-c4, odroid-n2l
-- kernel: 5.15.y-odroid-arm64
+- kernel: 4.9.y
 
 ### contact
 - email: <how2soft@gamil.com>
