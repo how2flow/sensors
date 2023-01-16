@@ -1,47 +1,47 @@
 # sensor (module) [need pins] #
 
 # 1-wire
-TEMP (KY-001) [Di]
-Temp and humidity (KY-015) [Di]
+TEMP (ky-001) [Di]
+Temp and humidity (ky-015) [Di]
 
 # gpio
-Hall magnatic (KY-003) [Di]
+Hall magnatic (ky-003) [Di]
 Relay [Di/Do]
-7 color flash (KY-034) [Do]
-Tilt switch (KY-017) [Di]
-Laser emit (KY-008) [Do]
-Ball switch (KY-020) [Di]
-Button [Di]
-buzzer (KY-012) [Do]
-Shock (KY-002) [Di]
-Avoid (KY-032) [Di]
-Mini Reed (KY-021) [Di]
-Rotary encoders (KY-040) [Di]
-Tap module (KY-031) [Di]
-Light blocking (KY-010) [Di]
+7 color flash (ky-034) [Do]
+Tilt switch (ky-017) [Di]
+Laser emit (ky-008) [Do]
+Ball switch (ky-020) [Di]
+Button (ky-004) [Di]
+buzzer (ky-012) [Do]
+Shock (ky-002) [Di]
+Avoid (ky-032) [Di]
+Mini Reed (ky-021) [Di]
+Rotary encoders (ky-040) [Di]
+Tap module (ky-031) [Di]
+Light blocking (ky-010) [Di]
 
 # pwm
-RGB LED (KY-016) [Do]
-Light Cup (KY-027) [Di/Do]
-SMD RGB (KY-009) [Do]
-Two-color LED (KY-011) [Do]
-passive buzzer (KY-006) [Do]
+RGB LED (ky-016) [Do]
+Light Cup (ky-027) [Di/Do]
+SMD RGB (ky-009) [Do]
+Two-color LED (ky-011) [Do]
+passive buzzer (ky-006) [Do]
 
 # adc
-joystick (KY-023) [Ai/Di]
-Flame (KY-026) [Ai/Do]
-Heartbeat (KY-039) [Ai]
-Linear Hall (KY-024) [Ai/Di]
-Touch (KY-036) [Ai/Di]
-Big sound (KY-037) [Ai/Di]
-Analog temp (KY-013) [Ai]
-Small sound (KY-038) [Ai]
-Digital temp (KY-028) [Ai/Di]
-Photoresistor (KY-018) [Ai]
-Tracking (KY-033) [Ai]
-Reed switch (KY-025) [Ai/Di]
-Analog Hall (KY-035) [Ai]
+joystick (ky-023) [Ai/Di]
+Flame (ky-026) [Ai/Do]
+Heartbeat (ky-039) [Ai]
+Linear Hall (ky-024) [Ai/Di]
+Touch (ky-036) [Ai/Di]
+Big sound (ky-037) [Ai/Di]
+Analog temp (ky-013) [Ai]
+Small sound (ky-038) [Ai]
+Digital temp (ky-028) [Ai/Di]
+Photoresistor (ky-018) [Ai]
+Tracking (ky-033) [Ai]
+Reed switch (ky-025) [Ai/Di]
+Analog Hall (ky-035) [Ai]
 
 # ir
-IR emission (KY-005)
-IR receiver (KY-022)
+IR emission (ky-005)
+IR receiver (ky-022)
