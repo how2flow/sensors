@@ -5,8 +5,11 @@
 #define LED 4 // phy #16
 
 /* target:
- * ky-003, ky-004
- * ky-017, ky-020
+ * ky-002, ky-003,
+ * ky-004, ky-010,
+ * ky-017, ky-020,
+ * ky-021, ky-031,
+ * ky-032
  */
 
 int main()
