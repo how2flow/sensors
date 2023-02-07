@@ -1,7 +1,7 @@
 #include <wiringPi.h>
 #include <stdio.h>
 
-#define APIN 29 // adc0
+#define APIN 29
 #define DPIN 7
 #define LED 4
 

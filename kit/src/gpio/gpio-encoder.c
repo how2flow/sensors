@@ -1,7 +1,7 @@
 #include <wiringPi.h>
 #include <stdio.h>
 
-#define SERVO 1 // phy #12
+#define SERVO 1
 #define DT 2
 #define SW 3
 #define CLK 7

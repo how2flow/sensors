@@ -1,14 +1,12 @@
 #include <wiringPi.h>
 #include <stdio.h>
 
-#define APIN 29 // adc0
-#define DPIN 7
+#define PIN 29
 #define LED 4
 
 /* target:
- * ky-024, ky-025,
- * ky-026, ky-036,
- * ky-037, ky-038
+ * ky-013, ky-018,
+ * ky-033, ky-035
  */ 
 
 int main()
@@ -16,19 +14,16 @@ int main()
 	int value;
 
 	wiringPiSetup();
-	pinMode(DPIN, INPUT);
 	pinMode(LED, OUTPUT);
 
 	while (1) {
-		value = analogRead(APIN);
-
-		if (digitalRead(DPIN)) {
+		value = analogRead(PIN);
+		if (value > 512) {
 			digitalWrite(LED, HIGH);
 		}
 		else {
 			digitalWrite(LED, LOW);
 		}
-		printf("analog value: %d\n", value);
 		delay(5);
 	}
 	return 0;
