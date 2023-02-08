@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #define PIN 7
-#define LED 4
+#define LED 24
 
 /* target:
  * ky-002, ky-003,

@@ -3,7 +3,7 @@
 
 #define APIN 29
 #define DPIN 7
-#define LED 4
+#define LED 24
 
 /* target:
  * ky-024, ky-025,

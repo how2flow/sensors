@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #define PIN 7
-#define LED 23
+#define PWM 23
 
 /* target:
  * ky-027
@@ -15,7 +15,7 @@ int main()
 
 	wiringPiSetup();
 	pinMode(PIN, INPUT);
-	pinMode(LED, PWM_OUTPUT);
+	pinMode(PWM, PWM_OUTPUT);
 	pwmSetClock(2400);
 	pwmSetRange(100);
 
@@ -29,7 +29,7 @@ int main()
 			if (brightness > 0)
 				brightness--;
 		}
-		pwmWrite(LED, brightness);
+		pwmWrite(PWM, brightness);
 	}
 
 	return 0;
