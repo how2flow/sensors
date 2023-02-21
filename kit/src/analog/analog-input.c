@@ -64,7 +64,7 @@ int main()
 		}
 
 		if (sensing >= SENSING_RANGE) {
-			printf("signal detected.\n");
+			printf("signal catch! (value:%d)\n", value);
 			digitalWrite(LED, HIGH);
 			delay(50);
 			digitalWrite(LED, LOW);
