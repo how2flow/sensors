@@ -27,9 +27,9 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
  * ky-017, ky-020,
  * ky-021, ky-024,
  * ky-025, ky-026,
- * ky-031, ky-032,
- * ky-036, ky-037,
- * ky-038
+ * ky-027, ky-031,
+ * ky-032, ky-036,
+ * ky-037, ky-038
  */
 
 int main()

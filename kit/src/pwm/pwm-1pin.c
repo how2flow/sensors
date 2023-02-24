@@ -25,7 +25,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 #define DIV (MAX / 100)
 
 /* target:
- * ky-027
  */
 
 int main()
