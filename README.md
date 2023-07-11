@@ -69,5 +69,5 @@ $ ./gpio-encoder
 * * *
 
 ### contact
-<a href="mailto:how2soft@gmail.com" target="_blank"><img src="https://img.shields.io/badge/gmail-ea4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
+<a href="mailto:steve@how2flow.net" target="_blank"><img src="https://img.shields.io/badge/gmail-ea4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 <a href="https://www.youtube.com/channel/UCSixYoVCS1dKRO-FqlBXAiQ" target="_blank"><img src="https://img.shields.io/badge/YouTube-ff0000?style=flat-square&logo=YouTube&logoColor=white"/></a>
