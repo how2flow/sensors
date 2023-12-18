@@ -16,14 +16,14 @@ $ sudo apt install odroid-wiringpi libwiringpi-dev
 $ git clone https://github.com/how2flow/sensors
 ```
 
-### examlples
+### examples
 
 * * *
 
 - adc (Photo resistor / KY-018)
 
-![fritzing-analog-input](kit/fritzing/images/ky-018.jpg)
-![analog-input](kit/examples/ky-018.gif)
+![fritzing-analog-input](/examples/kit/fritzing/images/ky-018.jpg)
+![analog-input](/examples/kit/gif/ky-018.gif)
 ```
 $ cd sensors/kit/src/analog
 $ gcc -o analog-input analog-input.c $(pkg-config --cflags --libs libwiringpi2)
@@ -34,8 +34,8 @@ $ ./analog-input
 
 - gpio (Tilt switch / KY-017)
 
-![fritzing-gpio-input](kit/fritzing/images/ky-017.jpg)
-![gpio-input](kit/examples/ky-017.gif)
+![fritzing-gpio-input](/examples/kit/fritzing/images/ky-017.jpg)
+![gpio-input](/examples/kit/gif/ky-017.gif)
 ```
 $ cd sensors/kit/src/gpio
 $ gcc -o gpio-input gpio-input.c $(pkg-config --cflags --libs libwiringpi2)
@@ -46,8 +46,8 @@ $ ./gpio-input
 
 - pwm (RGB led / KY-016)
 
-![fritzing-pwm-3ch](kit/fritzing/images/ky-016.jpg)
-![pwm-3ch](kit/examples/ky-016.gif)
+![fritzing-pwm-3ch](examples/kit/fritzing/images/ky-016.jpg)
+![pwm-3ch](/examples/kit/gif/ky-016.gif)
 ```
 $ cd sensors/kit/src/pwm
 $ gcc -o pwm-3ch pwm-3ch.c $(pkg-config --cflags --libs libwiringpi2)
@@ -58,8 +58,8 @@ $ ./pwm-3ch
 
 - gpio & pwm (Rotary encoder / KY-040)
 
-![fritzing-gpio-encoder](kit/fritzing/images/ky-040.jpg)
-![gpio-encoder](kit/examples/ky-040.gif)
+![fritzing-gpio-encoder](/examples/kit/fritzing/images/ky-040.jpg)
+![gpio-encoder](/examples/kit/gif/ky-040.gif)
 ```
 $ cd sensors/kit/src/gpio
 $ gcc -o gpio-encoder gpio-encoder.c $(pkg-config --cflags --libs libwiringpi2)

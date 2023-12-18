@@ -1,0 +1,7 @@
+# Adafruit #
+Adafruit-PlatformDetect >= 3.53.0
+Adafruit-Blinka
+adafruit-circuitpython-busdevice
+
+# etc #
+gpiod
