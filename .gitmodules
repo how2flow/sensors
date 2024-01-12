@@ -1,0 +1,3 @@
+[submodule "examples/circuitpython-examples"]
+	path = examples/circuitpython-examples
+	url = https://github.com/how2flow/circuitpython-examples
